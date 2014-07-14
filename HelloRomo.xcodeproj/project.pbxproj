@@ -167,6 +167,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Romotive;
+				TargetAttributes = {
+					942AC67F16E81A520062CA8A = {
+						DevelopmentTeam = 3Y8APYUG2G;
+					};
+				};
 			};
 			buildConfigurationList = 942AC67B16E81A520062CA8A /* Build configuration list for PBXProject "HelloRomo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -286,6 +291,7 @@
 		942AC6A416E81A520062CA8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/../../frameworks/**",
 					"$(inherited)",
@@ -306,6 +312,7 @@
 		942AC6A516E81A520062CA8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/../../frameworks/**",
 					"$(inherited)",
